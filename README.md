@@ -5,7 +5,7 @@
 ### 조건
 1. 패스 워드 길이(password_length)는 6이상 15이하의 자연수로 주어진다.
 
-2. 패스 워드 강도(password_strength)는 1부터 4사이의 자연수 이며, 다음과 같은 문자로 패스워드가 구성 됨을 의미 한다.
+2. 패스 워드 강도(password_strength)는 1이상 4이하의 자연수 이며, 다음과 같은 문자로 패스워드가 구성 됨을 의미 한다.
    * 1 : 알파벳 소문자(abcdefghijklmnopqrstuvwxyz)로만 패스워드가 구성
    * 2 : 알파벳 소문자와 대문자(ABCDEFGHIJKLMNOPQRSTUVWXYZ)로만 패스워드가 구성
    * 3 : 알파벳 소문자, 대문자 그리고 숫자(0123456789)로만 패스워드가 구성
