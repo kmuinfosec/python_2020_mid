@@ -1,9 +1,17 @@
 import random
+# import string
 
 symbols = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+# symbols = string.punctuation
+
 numbers = '0123456789'
+# numbers = string.digits
+
 lowercase_characters = 'abcdefghijklmnopqrstuvwxyz'
+# lowercase_characters = string.ascii_lowercase
+
 uppercase_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# uppercase_characters = string.ascii_uppercase
 
 def check_valid(password, password_strength):
     in_symbols = False
