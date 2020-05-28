@@ -29,14 +29,11 @@ def check_valid(password, password_strength):
             in_uppercase_characters = True
     # 각 패스워드의 조건에 따라 생성되어 있는지 확인 (line 31 ~ line 41)
     if password_strength == 1:
-        return in_lowercase_characters
-        # return in_lowercase_characters and not in_uppercase_characters and not in_numbers and not in_symbols
+        return in_lowercase_characters and not in_uppercase_characters and not in_numbers and not in_symbols
     if password_strength == 2:
-        return in_lowercase_characters and in_uppercase_characters
-        # return in_lowercase_characters and in_uppercase_characters and not in_numbers and not in_symbols
+        return in_lowercase_characters and in_uppercase_characters and not in_numbers and not in_symbols
     if password_strength == 3:
-        return in_lowercase_characters and in_uppercase_characters and in_numbers
-        # return in_lowercase_characters and in_uppercase_characters and in_numbers and not in_symbols
+        return in_lowercase_characters and in_uppercase_characters and in_numbers and not in_symbols
     if password_strength == 4:
         return in_lowercase_characters and in_uppercase_characters and in_numbers and in_symbols
 
