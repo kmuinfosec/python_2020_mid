@@ -1,7 +1,7 @@
 import random
 # import string
 
-# 사용한 문자열을 정의 합니다. ( line 5 ~ line 12 )
+# 사용할 문자열을 정의 합니다. ( line 5 ~ line 12 )
 symbols = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
 # symbols = string.punctuation
 numbers = '0123456789'
@@ -12,7 +12,7 @@ uppercase_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 # uppercase_characters = string.ascii_uppercase
 
 def check_valid(password, password_strength):
-    # password에 가각의 문자가 있는지 없는지 확인하기 위한 변수 ( line 16 ~ line 19 )
+    # password에 각각의 문자가 있는지 없는지 확인하기 위한 변수 ( line 16 ~ line 19 )
     in_symbols = False
     in_numbers = False
     in_lowercase_characters = False
